@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Instalation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<!-- Header -->
+<div class="flex justify-between items-center px-[80px] py-[44px] mx-auto mq725:px-[32px]">
+    <a href="index.html">
+        <img src="asset/Royal Orchid..png" alt="">
+    </a>
+    <div class="flex gap-[48px] items-center mq725:hidden  font-Outfit font-semibold text-[14px] text-[#777E90]  ">
+        <a href="about.html">
+            <div class="hover:text-[#141416]">About</div>
+        </a>
+        <a href="menu.html">
+            <div class="hover:text-[#141416]">Menu</div>
+        </a>
+        <a href="blog.html">
+            <div class="hover:text-[#141416]">Blog</div>
+        </a>
+        <a href="contact-us.html">
+            <div class="hover:text-[#141416]">Contact</div>
+        </a>
+        <img src="asset/Frame 1.png" alt="">
+    </div>
+    <div class="mw725:hidden">
+        <button id="menu-btn" type="button" class="z-40 block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+    </div>
+</div>
+
+<div
+    class="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start tracking-[normal] leading-[normal]">
+    <section
+        class="self-stretch bg-white flex flex-col items-center justify-start pt-[70px] mq750:pt-0 px-5 pb-[70px] box-border gap-[80px] max-w-full text-left text-77xl text-neutrals-2 font-caption mq450:gap-[20px] mq450:pt-[51px] mq450:pb-[29px] mq450:box-border mq750:gap-[40px] mq1050:pb-[45px] mq1050:box-border mq750:px-[32px]">
+        <div
+            class="w-[1260px] overflow-hidden flex flex-row items-start justify-between sticky top-[0] gap-[20px] max-w-full mq750:w-[803px] mq750:flex-col">
+            <h1 class="m-0 relative text-inherit font-semibold font-inherit whitespace-nowrap mq750:text-[48px]">
+                About
+            </h1>
+            <div class="flex flex-row items-start justify-start max-w-full text-5xl mq450:gap-[16px]">
+                <h3 class="m-0 relative text-inherit tracking-[-0.01em] leading-[32px] font-normal font-inherit">
+                    <p class="m-0">We strive to bring people the best Thai food</p>
+                    <p class="m-0">by using the freshest and best ingredients</p>
+                    <p class="m-0">we can find.</p>
+                </h3>
+            </div>
+        </div>
+        <div
+            class="w-[1260px] h-[450px] rounded-3xl overflow-hidden shrink-0 flex flex-row items-end justify-start p-[30px] box-border bg-[url('public/hero-card1@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-base text-neutrals-1">
+            <div
+                class="w-[189px] rounded-11xl bg-white overflow-hidden shrink-0 flex flex-row items-start justify-start p-2 box-border gap-[8px]">
+                <div
+                    class="rounded-3xl bg-neutrals-7 overflow-hidden flex flex-row items-start justify-start py-2.5 px-3.5">
+                    <div class="relative tracking-[-0.01em] leading-[24px] font-semibold inline-block min-w-[16px]">
+                        🌳
+                    </div>
+                </div>
+                <div class="flex flex-col items-start justify-start pt-2.5 px-0 pb-0">
+                    <div class="relative tracking-[-0.01em] leading-[24px] font-semibold inline-block min-w-[111px]">
+                        Wooden setting
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="self-stretch bg-white overflow-hidden flex flex-row items-start justify-center pt-0 px-5 pb-[70px] box-border max-w-full text-center text-sm text-neutrals-4 font-caption">
+        <div class="w-[698px] flex flex-col items-center justify-center gap-[32px] max-w-full mq750:gap-[16px]">
+            <div class="self-stretch relative leading-[24px]">
+                <p class="m-0">
+                    You are on a voyage in which you will craft your own future. It is
+                    the time of youth and adventure--of exploring
+                </p>
+                <p class="m-0">
+                    the world with an open mind and spirit. In fact, whenever you must
+                    learn a new skill or alter your career path later
+                </p>
+                <p class="m-0">
+                    in life, you reconnect with that youthful adventurous part of
+                    yourself.
+                </p>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-[16px] text-left text-5xl text-neutrals-2">
+                <img class="w-11 h-11 relative rounded-3xl object-cover" loading="lazy" alt=""
+                    src="public/rectangle-1@2x.png" />
+
+                <div class="flex flex-col items-center justify-center gap-[2px]">
+                    <h3
+                        class="m-0 relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                        Prasit sittiragsenapa
+                    </h3>
+                    <div class="relative text-sm leading-[20px] inline-block min-w-[29px]">
+                        CEO
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="self-stretch bg-neutrals-7 overflow-hidden flex flex-col items-start justify-start py-[70px] px-[90px] box-border max-w-full text-left text-29xl text-neutrals-2 font-caption mq450:py-[29px] mq450:px-5 mq450:box-border mq750:pl-[45px] mq750:pr-[45px] mq750:box-border mq1050:pt-[45px] mq1050:pb-[45px] mq1050:box-border">
+        <div
+            class="self-stretch flex flex-row items-start justify-center gap-[70px] max-w-full mq450:gap-[17px] mq750:gap-[35px] mq1225:flex-wrap mq1050:flex-col">
+            <div
+                class="w-[410px] flex flex-col items-start justify-center gap-[32px] min-w-[410px] max-w-full mq450:gap-[16px] mq750:min-w-full mq1225:flex-1">
+                <div class="self-stretch flex flex-col items-start justify-center">
+                    <h1
+                        class="m-0 self-stretch relative text-inherit font-semibold font-inherit mq450:text-10xl mq750:text-19xl">
+                        Organic & Healthy Food For You
+                    </h1>
+                </div>
+                <button
+                    class="cursor-pointer [border:none] py-[18px] px-11 bg-primary-1 rounded-3xs overflow-hidden flex flex-row items-start justify-start whitespace-nowrap hover:bg-mediumseagreen">
+                    <div
+                        class="relative text-base leading-[16px] font-semibold font-caption text-ghostwhite text-left inline-block min-w-[70px]">
+                        See Menu
+                    </div>
+                </button>
+            </div>
+            <div
+                class="flex-1 flex flex-col items-start justify-start gap-[60px] min-w-[507px] max-w-full text-5xl text-neutrals-4 mq750:min-w-full mq1050:gap-[30px]">
+                <div class="self-stretch flex flex-col items-start justify-start gap-[16px]">
+                    <h3
+                        class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-normal font-inherit mq450:text-lgi mq450:leading-[26px]">
+                        Find a master to apprentice under, but instead of thinking about
+                        how much they can give you, this about how you can help them
+                        with their work.
+                    </h3>
+                    <h3
+                        class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-normal font-inherit mq450:text-lgi mq450:leading-[26px]">
+                        Learning how to learn is the most important skill to acquire.
+                    </h3>
+                </div>
+                <img class="self-stretch h-[529px] relative rounded-3xl max-w-full overflow-hidden shrink-0 object-cover"
+                    loading="lazy" alt="" src="public/frame-21@2x.png" />
+            </div>
+        </div>
+    </section>
+    <section
+        class="self-stretch bg-white overflow-hidden flex flex-row flex-wrap items-start justify-start py-[70px] px-[90px] box-border gap-[31.5px] max-w-full text-left text-29xl text-neutrals-2 font-caption mq450:pl-5 mq450:pr-5 mq450:box-border mq750:gap-[16px] mq750:pl-[45px] mq750:pr-[45px] mq750:box-border">
+        <div
+            class="flex-1 rounded-3xs bg-white overflow-hidden flex flex-col items-center justify-start p-5 box-border gap-[8px] min-w-[299px] max-w-full">
+            <div class="flex flex-row items-start justify-start py-0 px-[23px]">
+                <div class="relative font-semibold mq450:text-10xl mq750:text-19xl">
+                    10,000k
+                </div>
+            </div>
+            <div class="w-[228px] relative text-sm leading-[24px] text-neutrals-4 text-center inline-block">
+                <p class="m-0">Mastery is a process and discovering</p>
+                <p class="m-0">your calling is the starting point</p>
+            </div>
+        </div>
+        <div
+            class="flex-1 rounded-3xs bg-white overflow-hidden flex flex-col items-center justify-start p-5 box-border gap-[8px] min-w-[299px] max-w-full">
+            <div class="flex flex-row items-start justify-start py-0 pr-[78px] pl-[78.5px]">
+                <div class="relative font-semibold inline-block min-w-[71px] mq450:text-10xl mq750:text-19xl">
+                    15+
+                </div>
+            </div>
+            <div class="w-[228px] relative text-sm leading-[24px] text-neutrals-4 text-center inline-block">
+                <p class="m-0">Mastery is a process and discovering</p>
+                <p class="m-0">your calling is the starting point</p>
+            </div>
+        </div>
+        <div
+            class="flex-1 rounded-3xs bg-white overflow-hidden flex flex-col items-center justify-start p-5 box-border gap-[8px] min-w-[299px] max-w-full">
+            <div class="flex flex-row items-start justify-start py-0 px-[70px]">
+                <div class="relative font-semibold inline-block min-w-[88px] mq450:text-10xl mq750:text-19xl">
+                    40+
+                </div>
+            </div>
+            <div class="w-[228px] relative text-sm leading-[24px] text-neutrals-4 text-center inline-block">
+                <p class="m-0">Mastery is a process and discovering</p>
+                <p class="m-0">your calling is the starting point</p>
+            </div>
+        </div>
+    </section>
+    <section
+        class="self-stretch bg-neutrals-7 overflow-hidden flex flex-col items-start justify-start py-[70px] px-[90px] box-border max-w-full text-left text-5xl text-neutrals-4 font-caption mq450:py-[29px] mq450:px-5 mq450:box-border mq750:pl-[45px] mq750:pr-[45px] mq750:box-border mq1050:pt-[45px] mq1050:pb-[45px] mq1050:box-border">
+        <div class="self-stretch flex flex-row items-start justify-start max-w-full">
+            <div
+                class="flex-1 flex flex-row items-start justify-start gap-[70px] max-w-full mq450:gap-[17px] mq750:gap-[35px] mq1225:flex-wrap mq1050:flex-col">
+                <div
+                    class="flex-1 flex flex-col items-start justify-start gap-[60px] max-w-full mq750:min-w-full mq1050:gap-[30px]">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[16px]">
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-normal font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            You cannot make anything worthwhile in this world unless you
+                            have first developed and transformed yourself.
+                        </h3>
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-normal font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            Like a builder, develope the highest standards, and the
+                            patience for the step-by-step process.
+                        </h3>
+                    </div>
+                    <img class="self-stretch h-[529px] relative rounded-3xl max-w-full overflow-hidden shrink-0 object-cover"
+                        alt="" src="public/frame-21-1@2x.png" />
+                </div>
+                <div
+                    class="w-[410px] flex flex-col items-start justify-center gap-[32px] min-w-[410px] max-w-full text-29xl text-neutrals-2 mq450:gap-[16px] mq750:min-w-full mq1225:flex-1">
+                    <div class="self-stretch flex flex-col items-start justify-center">
+                        <h1
+                            class="m-0 self-stretch relative text-inherit font-semibold font-inherit mq450:text-10xl mq750:text-19xl">
+                            It’s not just Food, It’s an Experience.
+                        </h1>
+                    </div>
+                    <button
+                        class="cursor-pointer [border:none] py-[18px] px-11 bg-primary-1 rounded-3xs overflow-hidden flex flex-row items-start justify-start whitespace-nowrap hover:bg-mediumseagreen">
+                        <div
+                            class="relative text-base leading-[16px] font-semibold font-caption text-ghostwhite text-left">
+                            Table Reservation
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="bg-white overflow-hidden flex flex-col items-start justify-start pt-[60px] pb-[70px] pr-[89px] pl-[90px] box-border gap-[60px] max-w-full text-left text-29xl text-neutrals-2 font-caption mq450:gap-[15px] mq450:pt-[25px] mq450:px-5 mq450:pb-[29px] mq450:box-border mq750:gap-[30px] mq750:pl-[45px] mq750:pr-11 mq750:box-border mq1050:pt-[39px] mq1050:pb-[45px] mq1050:box-border mq1250:items-center">
+        <div class="w-[506px] flex flex-row items-start justify-start max-w-full">
+            <h1
+                class="m-0 flex-1 relative text-inherit font-semibold font-inherit inline-block max-w-full mq450:text-10xl mq750:text-19xl">
+                Our customers love us.
+            </h1>
+        </div>
+        <div
+            class="w-[1261px] overflow-x-auto flex flex-row flex-wrap items-start justify-start gap-[32px_30px] min-h-[632px] max-w-full text-5xl mq1250:justify-center">
+            <div
+                class="w-[399px] rounded-3xl bg-white overflow-hidden shrink-0 flex flex-col items-start justify-start p-[30px] box-border">
+                <div class="self-stretch flex flex-col items-start justify-start gap-[16px]">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <img class="w-11 h-11 relative rounded-3xl object-cover" loading="lazy" alt=""
+                            src="public/james.png" />
+
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            James Resly
+                        </h3>
+                        <div class="self-stretch relative text-sm leading-[24px] text-neutrals-4">
+                            There is much to be known, life is short, and life is not life
+                            without knowledge. Adquiring a set of skills is the key to
+                            navigating a turbulent work world. The ability to later
+                            combine these skills is the best path to mastery.
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-11xl flex flex-row items-start justify-start py-1.5 px-[11px] gap-[6px] text-base text-neutrals-4 border-[1px] border-solid border-neutrals-7">
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-[399px] rounded-3xl bg-white overflow-hidden shrink-0 flex flex-col items-start justify-start p-[30px] box-border">
+                <div class="self-stretch flex flex-col items-start justify-start gap-[16px]">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <img class="w-11 h-11 relative rounded-3xl object-cover" alt="" src="public/victor.png" />
+
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            Victor Valdez
+                        </h3>
+                        <div class="self-stretch relative text-sm leading-[24px] text-neutrals-4">
+                            There is much to be known, life is short, and life is not life
+                            without knowledge. Adquiring a set of skills is the key to
+                            navigating a turbulent work world. The ability to later
+                            combine these skills is the best path to mastery.
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-11xl bg-white flex flex-row items-start justify-start py-1.5 px-[11px] gap-[6px] text-base text-neutrals-4 border-[1px] border-solid border-neutrals-7">
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-[399px] rounded-3xl bg-white overflow-hidden shrink-0 flex flex-col items-start justify-start p-[30px] box-border">
+                <div class="self-stretch flex flex-col items-start justify-start gap-[16px]">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <img class="w-11 h-11 relative rounded-3xl object-cover" alt="" src="public/james.png" />
+
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            James Resly
+                        </h3>
+                        <div class="self-stretch relative text-sm leading-[24px] text-neutrals-4">
+                            There is much to be known, life is short, and life is not life
+                            without knowledge. Adquiring a set of skills is the key to
+                            navigating a turbulent work world. The ability to later
+                            combine these skills is the best path to mastery.
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-11xl flex flex-row items-start justify-start py-1.5 px-[11px] gap-[6px] text-base text-neutrals-4 border-[1px] border-solid border-neutrals-7">
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-[399px] rounded-3xl bg-white overflow-hidden shrink-0 flex flex-col items-start justify-start p-[30px] box-border">
+                <div class="self-stretch flex flex-col items-start justify-start gap-[16px]">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <img class="w-11 h-11 relative rounded-3xl object-cover" alt="" src="public/philip.png" />
+
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            Phillip Martin
+                        </h3>
+                        <div class="self-stretch relative text-sm leading-[24px] text-neutrals-4">
+                            There is much to be known, life is short, and life is not life
+                            without knowledge. Adquiring a set of skills is the key to
+                            navigating a turbulent work world. The ability to later
+                            combine these skills is the best path to mastery.
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-11xl flex flex-row items-start justify-start py-1.5 px-[11px] gap-[6px] text-base text-neutrals-4 border-[1px] border-solid border-neutrals-7">
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-[399px] rounded-3xl bg-white overflow-hidden shrink-0 flex flex-col items-start justify-start p-[30px] box-border">
+                <div class="self-stretch flex flex-col items-start justify-start gap-[16px]">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <img class="w-11 h-11 relative rounded-3xl object-cover" alt="" src="public/james.png" />
+
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            James Resly
+                        </h3>
+                        <div class="self-stretch relative text-sm leading-[24px] text-neutrals-4">
+                            There is much to be known, life is short, and life is not life
+                            without knowledge. Adquiring a set of skills is the key to
+                            navigating a turbulent work world. The ability to later
+                            combine these skills is the best path to mastery.
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-11xl flex flex-row items-start justify-start py-1.5 px-[11px] gap-[6px] text-base text-neutrals-4 border-[1px] border-solid border-neutrals-7">
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-[399px] rounded-3xl bg-white overflow-hidden shrink-0 flex flex-col items-start justify-start p-[30px] box-border">
+                <div class="self-stretch flex flex-col items-start justify-start gap-[16px]">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <img class="w-11 h-11 relative rounded-3xl object-cover" alt="" src="public/noemi.png" />
+
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            Noemi Macavei
+                        </h3>
+                        <div class="self-stretch relative text-sm leading-[24px] text-neutrals-4">
+                            There is much to be known, life is short, and life is not life
+                            without knowledge. Adquiring a set of skills is the key to
+                            navigating a turbulent work world. The ability to later
+                            combine these skills is the best path to mastery.
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-11xl flex flex-row items-start justify-start py-1.5 px-[11px] gap-[6px] text-base text-neutrals-4 border-[1px] border-solid border-neutrals-7">
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                        <div class="relative tracking-[-0.01em] leading-[24px] inline-block min-w-[16px]">
+                            ⭐
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="self-stretch bg-white overflow-hidden flex flex-row items-start justify-center pt-0 px-5 pb-[70px] box-border max-w-full text-center text-29xl text-neutrals-8 font-caption mq450:pb-[29px] mq450:box-border mq750:pb-[45px] mq750:box-border">
+        <div
+            class="w-[1260px] flex flex-row items-start justify-start pt-0 px-0 pb-[52px] box-border max-w-full mq750:pb-[34px] mq750:box-border">
+            <div class="h-[639px] flex-1 flex flex-row items-start justify-start max-w-full">
+                <div class="self-stretch flex-1 flex flex-row items-start justify-start relative max-w-full">
+                    <img class="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] rounded-3xl max-w-full overflow-hidden max-h-full object-cover"
+                        loading="lazy" alt="" src="public/videobackground.png" />
+
+                    <video class="self-stretch flex-1 relative rounded-3xl bg-gray overflow-hidden max-w-full z-[1]"
+                        autoplay muted loop controls>
+                        <source src="video/video_preview_h264.mp4" />
+                    </video>
+                </div>
+            </div>
+            <div
+                class="hidden flex-row items-center justify-center gap-[8px] max-w-full text-base text-neutrals-4 mq450:flex-wrap">
+                <div class="relative tracking-[-0.01em] leading-[24px]">
+                    Royal Orchid Thai Cuisine Video Tour
+                </div>
+                <div class="relative tracking-[-0.01em] leading-[24px] text-neutrals-2 mq450:w-full mq450:h-2">
+                    -
+                </div>
+                <div
+                    class="rounded-11xl bg-secondary-3 overflow-hidden flex flex-row items-start justify-start py-1.5 px-3 whitespace-nowrap text-primary-1">
+                    <div class="relative tracking-[-0.01em] leading-[24px] font-semibold">
+                        9:57 Min
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start pt-0 px-5 pb-[70px] box-border gap-[60px] max-w-full text-center text-29xl text-neutrals-2 font-caption mq750:gap-[30px] mq750:pb-[45px] mq750:box-border">
+        <div class="w-[1260px] flex flex-row items-start justify-center max-w-full">
+            <div class="w-[500px] flex flex-col items-start justify-start gap-[24px] max-w-full">
+                <h1
+                    class="m-0 self-stretch relative text-inherit font-semibold font-inherit mq450:text-10xl mq750:text-19xl">
+                    The Team
+                </h1>
+                <h3
+                    class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[32px] font-normal font-inherit text-neutrals-4 mq450:text-lgi mq450:leading-[26px]">
+                    Learning how to learn is the most important skill to acquire.
+                </h3>
+            </div>
+        </div>
+        <div
+            class="w-[1260px] grid flex-row items-start justify-start gap-[32px] max-w-full grid-cols-[repeat(4,_minmax(218px,_1fr))] text-5xl mq450:grid-cols-[minmax(218px,_1fr)] mq750:gap-[16px] mq1050:grid-cols-[repeat(2,_minmax(218px,_378px))] mq1050:justify-center">
+            <div
+                class="h-[376px] rounded-3xl bg-white overflow-hidden flex flex-col items-start justify-start p-[30px] box-border mq450:pt-5 mq450:pb-5 mq450:box-border">
+                <div class="self-stretch flex-1 flex flex-col items-center justify-center gap-[16px]">
+                    <img class="self-stretch flex-1 relative rounded-t-3xl rounded-b-none max-w-full overflow-hidden max-h-full object-cover"
+                        alt="" src="public/prasit.png" />
+
+                    <div class="self-stretch flex flex-col items-center justify-center gap-[8px]">
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            Prasit Sittiragsenapa
+                        </h3>
+                        <button
+                            class="cursor-pointer [border:none] py-2 px-[18px] bg-secondary-4 rounded-11xl overflow-hidden flex flex-row items-start justify-start hover:bg-gainsboro-200">
+                            <div
+                                class="relative text-sm leading-[24px] font-medium font-caption text-primary-5 text-left inline-block min-w-[29px]">
+                                CEO
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="h-[376px] rounded-3xl bg-white overflow-hidden flex flex-col items-start justify-start p-[30px] box-border mq450:pt-5 mq450:pb-5 mq450:box-border">
+                <div class="self-stretch flex-1 flex flex-col items-center justify-center gap-[16px]">
+                    <img class="self-stretch flex-1 relative rounded-t-3xl rounded-b-none max-w-full overflow-hidden max-h-full object-cover"
+                        alt="" src="public/james2.png" />
+
+                    <div class="self-stretch flex flex-col items-center justify-center gap-[8px]">
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            James Resly
+                        </h3>
+                        <button
+                            class="cursor-pointer [border:none] py-2 px-[18px] bg-secondary-3 rounded-11xl overflow-hidden flex flex-row items-start justify-start hover:bg-gainsboro-300">
+                            <div
+                                class="relative text-sm leading-[24px] font-medium font-caption text-primary-1 text-left inline-block min-w-[31px]">
+                                Chef
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="h-[376px] rounded-3xl bg-white overflow-hidden flex flex-col items-start justify-start p-[30px] box-border mq450:pt-5 mq450:pb-5 mq450:box-border">
+                <div class="self-stretch flex-1 flex flex-col items-center justify-center gap-[16px]">
+                    <img class="self-stretch flex-1 relative rounded-t-3xl rounded-b-none max-w-full overflow-hidden max-h-full object-cover"
+                        alt="" src="public/noemi2.png" />
+
+                    <div class="self-stretch flex flex-col items-center justify-center gap-[8px]">
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            Noemi Macavei
+                        </h3>
+                        <button
+                            class="cursor-pointer [border:none] py-2 px-[18px] bg-secondary-2 rounded-11xl overflow-hidden flex flex-row items-start justify-start whitespace-nowrap hover:bg-antiquewhite">
+                            <div
+                                class="relative text-sm leading-[24px] font-medium font-caption text-primary-4 text-left inline-block min-w-[90px]">
+                                Chef Assistant
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="h-[376px] rounded-3xl bg-white overflow-hidden flex flex-col items-start justify-start p-[30px] box-border mq450:pt-5 mq450:pb-5 mq450:box-border">
+                <div class="self-stretch flex-1 flex flex-col items-center justify-center gap-[16px]">
+                    <img class="self-stretch flex-1 relative rounded-t-3xl rounded-b-none max-w-full overflow-hidden max-h-full object-cover"
+                        alt="" src="public/harps2.png" />
+
+                    <div class="self-stretch flex flex-col items-center justify-center gap-[8px]">
+                        <h3
+                            class="m-0 self-stretch relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            Harps Joseph
+                        </h3>
+                        <button
+                            class="cursor-pointer [border:none] py-2 px-[18px] bg-secondary-1 rounded-11xl overflow-hidden flex flex-row items-start justify-start hover:bg-lavender">
+                            <div
+                                class="relative text-sm leading-[24px] font-medium font-caption text-primary-2 text-left inline-block min-w-[58px]">
+                                Manager
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="self-stretch bg-white overflow-hidden flex flex-row items-start justify-center pt-0 px-5 pb-[70px] box-border max-w-full text-left text-29xl text-neutrals-2 font-caption mq450:pb-[45px] mq450:box-border">
+        <div
+            class="w-[1260px] rounded-3xl bg-neutrals-8 box-border overflow-hidden shrink-0 flex flex-row items-start justify-between py-[60px] pr-[61px] pl-[59px] max-w-full gap-[20px] border-[1px] border-solid border-neutrals-7 mq450:pt-[39px] mq450:pb-[39px] mq450:box-border mq1225:flex-wrap mq1225:pl-[29px] mq1225:pr-[30px] mq1225:box-border mq1050:flex-col">
+            <div
+                class="w-[500px] flex flex-col items-start justify-center gap-[32px] min-w-[500px] max-w-full mq750:gap-[16px] mq750:min-w-full mq1225:flex-1">
+                <div class="self-stretch flex flex-col items-start justify-center gap-[24px]">
+                    <h1
+                        class="m-0 self-stretch relative text-inherit font-semibold font-inherit mq450:text-10xl mq750:text-19xl">
+                        The Blog
+                    </h1>
+                    <h3
+                        class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[32px] font-normal font-inherit text-neutrals-4 mq450:text-lgi mq450:leading-[26px]">
+                        Learning how to learn is the most important skill to acquire.
+                    </h3>
+                </div>
+                <button
+                    class="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-row items-start justify-start gap-[16px]">
+                    <div
+                        class="rounded-3xs bg-primary-1 overflow-hidden flex flex-row items-center justify-start py-[18px] px-11 whitespace-nowrap hover:bg-mediumseagreen">
+                        <div
+                            class="relative text-base leading-[16px] font-semibold font-caption text-ghostwhite text-left inline-block min-w-[82px]">
+                            Read More
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-3xs bg-secondary-3 overflow-hidden hidden flex-row items-start justify-start py-[18px] px-11 whitespace-nowrap">
+                        <div
+                            class="relative text-base leading-[16px] font-semibold font-caption text-primary-1 text-left">
+                            Table Reservation
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <img class="w-[550px] relative rounded-tl-none rounded-tr-3xl rounded-br-3xl rounded-bl-none max-h-full overflow-hidden shrink-0 object-cover max-w-full mq1225:flex-1"
+                loading="lazy" alt="" src="public/theblog.png" />
+        </div>
+    </section>
+</div>
+
+<div
+    class="w-full relative bg-white overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal]">
+    <header
+        class="flex-1 bg-white overflow-hidden flex flex-col items-center justify-start pt-0 pb-[45px] px-5 box-border gap-[60px] max-w-full text-left text-sm text-neutrals-4 font-caption mq675:box-border mq900:gap-[30px]">
+        <div
+            class="w-[830px] flex flex-row items-start justify-center py-0 pr-px pl-0 box-border max-w-full text-5xl text-neutrals-2">
+            <div class="w-[391px] flex flex-col items-start justify-start gap-[24px] max-w-full">
+                <div class="self-stretch flex flex-row items-start justify-center py-0 pr-[23px] pl-5">
+                    <h2
+                        class="m-0 relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit whitespace-nowrap">
+                        <span>Royal Orchid</span>
+                        <span class="text-primary-5">.</span>
+                    </h2>
+                </div>
+                <div class="self-stretch flex flex-row items-start justify-start gap-[48px] mq450:gap-[24px]">
+                    <nav class="m-0 flex-1 flex flex-col items-start justify-start pt-3.5 px-0 pb-0">
+                        <nav
+                            class="m-0 self-stretch flex flex-row items-start justify-between gap-[20px] text-left text-sm text-neutrals-4 font-caption">
+                            <div
+                                class="relative leading-[16px] font-semibold inline-block min-w-[40px] whitespace-nowrap hover:text-black hover:shadow-xl">
+                                About
+                            </div>
+                            <div
+                                class="relative leading-[16px] font-semibold inline-block min-w-[35px] whitespace-nowrap hover:text-black hover:shadow-xl">
+                                Menu
+                            </div>
+                            <div
+                                class="relative leading-[16px] font-semibold inline-block min-w-[29px] hover:text-black hover:shadow-xl">
+                                Blog
+                            </div>
+                            <div
+                                class="relative leading-[16px] font-semibold inline-block min-w-[51px] hover:text-black hover:shadow-xl">
+                                Contact
+                            </div>
+                        </nav>
+                    </nav>
+                    <div class="flex flex-row items-center justify-center">
+                        <img class="h-11 w-11 relative rounded-3xl overflow-hidden shrink-0" loading="lazy" alt=""
+                            src="asset/Frame 1.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="w-[830px] flex flex-row flex-wrap items-start justify-center gap-[32px] max-w-full mq450:gap-[16px]">
+            <div
+                class="flex-1 rounded-3xs bg-white box-border overflow-hidden flex flex-row items-start justify-center p-5 min-w-[259px] max-w-full border-[1px] border-solid border-neutrals-8">
+                <div class="flex flex-col items-start justify-start gap-[8px]">
+                    <div
+                        class="flex flex-row items-start justify-start py-0 pr-[45px] pl-[45.5px] text-5xl text-neutrals-2">
+                        <h2
+                            class="m-0 relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            CONTACT US
+                        </h2>
+                    </div>
+                    <div class="relative leading-[24px]">
+                        4231 Westheimer St. Santa Ana 85486
+                    </div>
+                    <div class="flex flex-row items-start justify-start py-0 pr-[58px] pl-[58.5px]">
+                        <div class="relative leading-[24px] inline-block min-w-[119px] whitespace-nowrap">
+                            +61 000-000-000
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex-1 rounded-3xs bg-white overflow-hidden flex flex-row items-start justify-center p-5 box-border min-w-[259px] max-w-full">
+                <div class="flex flex-col items-start justify-start gap-[8px]">
+                    <div class="flex flex-row items-start justify-start py-0 px-1 text-5xl text-neutrals-2">
+                        <h2
+                            class="m-0 relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            WORKING HOURS
+                        </h2>
+                    </div>
+                    <div class="flex flex-row items-start justify-start py-0 px-1.5">
+                        <div class="relative leading-[24px] whitespace-nowrap">
+                            Monday-Friday : 08:00 - 22:00
+                        </div>
+                    </div>
+                    <div class="relative leading-[24px] whitespace-nowrap">
+                        Saturday-Sunday : 08:00 - 22:00
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-[830px] flex flex-row items-start justify-center max-w-full">
+            <div class="h-11 flex flex-row items-start justify-start gap-[16px]">
+                <img class="h-11 w-11 relative rounded-3xl overflow-hidden shrink-0 min-h-[44px] hover:shadow-xl hover:shadow-black hover:size-12"
+                    loading="lazy" alt="" src="public/facebook-icon.svg" />
+
+                <div
+                    class="h-11 w-11 relative rounded-3xl shrink-0 min-h-[44px] flex items-center justify-center hover:shadow-xl hover:shadow-black hover:size-12">
+                    <img class="h-full w-full overflow-hidden shrink-0 min-h-[44px] object-contain absolute left-[0px] top-[10px] [transform:scale(1.909)]"
+                        loading="lazy" alt="" src="public/instagram-icon.svg" />
+                </div>
+                <img class="h-11 w-11 relative rounded-3xl overflow-hidden shrink-0 min-h-[44px] hover:shadow-xl hover:shadow-black hover:size-12"
+                    loading="lazy" alt="" src="public/twitter-icon.svg" />
+            </div>
+        </div>
+        <div class="w-[830px] flex flex-row items-start justify-center max-w-full">
+            <div class="w-[420px] flex flex-col items-start justify-start gap-[24px] max-w-full">
+                <nav
+                    class="m-0 self-stretch flex flex-row items-start justify-start py-0 px-[76px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+                </nav>
+            </div>
+        </div>
+    </header>
+</div>
+<!-- menu mobile -->
+<div id="menu"
+    class="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 font-Outfit text-lg text-black uppercase bg-white">
+    <a href="index.html" class="hover:font-bold">Home</a>
+    <a href="about.html" class="hover:font-bold">About</a>
+    <a href="menu.html" class="hover:font-bold">Menu</a>
+    <a href="blog.html" class="hover:font-bold">Blog</a>
+    <a href="contact-us.html" class="hover:font-bold">Contact</a>
+</div>

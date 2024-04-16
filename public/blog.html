@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Instalation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<!-- Header -->
+<div class="flex justify-between items-center px-[80px] py-[44px] mx-auto mq725:px-[32px]">
+    <a href="index.html">
+        <img src="asset/Royal Orchid..png" alt="">
+    </a>
+    <div class="flex gap-[48px] items-center mq725:hidden  font-Outfit font-semibold text-[14px] text-[#777E90]  ">
+        <a href="about.html">
+            <div class="hover:text-[#141416]">About</div>
+        </a>
+        <a href="menu.html">
+            <div class="hover:text-[#141416]">Menu</div>
+        </a>
+        <a href="blog.html">
+            <div class="hover:text-[#141416]">Blog</div>
+        </a>
+        <a href="contact-us.html">
+            <div class="hover:text-[#141416]">Contact</div>
+        </a>
+        <img src="asset/Frame 1.png" alt="">
+    </div>
+    <div class="mw725:hidden">
+        <button id="menu-btn" type="button" class="z-40 block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+    </div>
+</div>
+
+<body>
+    <div
+        class="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] text-center text-77xl text-neutrals-2 font-caption">
+        <div
+            class="self-stretch bg-white overflow-hidden flex flex-col items-end justify-start pt-[70px] mq750:pt-0 px-px pb-0 box-border gap-[69px] max-w-full mq750:gap-[34px] mq450:gap-[17px] mq450:pt-[78px] mq450:box-border">
+            <div
+                class="self-stretch flex flex-row items-start justify-center py-0 pr-[21px] pl-5 box-border max-w-full">
+                <div
+                    class="w-[483px] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[24px] max-w-full">
+                    <div
+                        class="flex flex-row items-start justify-start py-0 pr-[51px] pl-[51.5px] mq750:pl-[25px] mq750:pr-[25px] mq750:box-border">
+                        <h1
+                            class="m-0 w-[380px] relative text-inherit leading-[96px] font-semibold font-inherit inline-block mq1050:text-29xl mq1050:leading-[58px] mq450:text-10xl mq450:leading-[38px]">
+                            The Blog
+                        </h1>
+                    </div>
+                    <h2
+                        class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[32px] font-normal font-inherit mq450:text-lgi mq450:leading-[26px]">
+                        <p class="m-0">More than 100 dishes made fresh from scratch</p>
+                        <p class="m-0">every day.</p>
+                    </h2>
+                </div>
+            </div>
+            <div class="self-stretch h-px relative bg-neutrals-7 overflow-hidden shrink-0"></div>
+        </div>
+        <main
+            class="self-stretch bg-white overflow-hidden flex flex-col items-center justify-start pt-20 px-5 pb-[70px] box-border gap-[32px] max-w-full lg:pt-[52px] lg:pb-[45px] lg:box-border mq750:gap-[16px] mq750:pt-[34px] mq750:pb-[29px] mq750:box-border mq450:pt-[22px] mq450:pb-5 mq450:box-border">
+            <a href="blog-article.html"
+                class="w-[1044px] rounded-3xl bg-white box-border overflow-hidden flex flex-row items-center justify-center py-[30px] px-[29px] gap-[32px] max-w-full text-left text-sm text-neutrals-4 font-caption border-[1px] border-solid border-neutrals-8 mq1050:flex-wrap mq750:gap-[16px] hover:shadow-xl">
+                <img class="h-[260px] w-[300px] relative rounded-3xl object-cover mq1050:flex-1" loading="lazy" alt=""
+                    src="public/blog1.png" />
+
+                <div
+                    class="flex-1 flex flex-col items-start justify-center gap-[16px] min-w-[424px] max-w-full mq750:min-w-full">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <div class="self-stretch relative leading-[24px]">
+                            Jan 13, 2022
+                        </div>
+                        <h2
+                            class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[32px] font-semibold font-inherit text-neutrals-2 mq450:text-lgi mq450:leading-[26px]">
+                            The best way to prepare crispy & delicious dinners
+                        </h2>
+                    </div>
+                    <button
+                        class="cursor-pointer [border:none] py-2 px-[18px] bg-secondary-3 rounded-11xl overflow-hidden flex flex-row items-start justify-start hover:bg-gainsboro-300">
+                        <div
+                            class="relative text-sm leading-[24px] font-medium font-caption text-primary-1 text-left inline-block min-w-[48px]">
+                            Recipes
+                        </div>
+                    </button>
+                </div>
+            </a>
+            <a href="blog-article.html"
+                class="w-[1044px] rounded-3xl bg-white overflow-hidden flex flex-row items-center justify-center p-[30px] box-border gap-[32px] max-w-full text-left text-sm text-neutrals-4 font-caption mq1050:flex-wrap mq750:gap-[16px] hover:shadow-xl">
+                <img class="h-[260px] w-[300px] relative rounded-3xl object-cover mq1050:flex-1" loading="lazy" alt=""
+                    src="public/blog2.png" />
+
+                <div
+                    class="flex-1 flex flex-col items-start justify-center gap-[16px] min-w-[424px] max-w-full mq750:min-w-full">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <div class="self-stretch relative leading-[24px]">
+                            Jan 13, 2022
+                        </div>
+                        <h2
+                            class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[32px] font-semibold font-inherit text-neutrals-2 mq450:text-lgi mq450:leading-[26px]">
+                            The best way to prepare crispy & delicious dinners
+                        </h2>
+                    </div>
+                    <button
+                        class="cursor-pointer [border:none] py-2 px-[18px] bg-secondary-2 rounded-11xl overflow-hidden flex flex-row items-start justify-start hover:bg-antiquewhite">
+                        <div
+                            class="relative text-sm leading-[24px] font-medium font-caption text-primary-4 text-left inline-block min-w-[52px]">
+                            Cooking
+                        </div>
+                    </button>
+                </div>
+            </a>
+            <a href="blog-article.html"
+                class="w-[1044px] rounded-3xl bg-white box-border overflow-hidden flex flex-row items-center justify-center py-[30px] px-[29px] gap-[32px] max-w-full text-left text-sm text-neutrals-4 font-caption border-[1px] border-solid border-neutrals-8 mq1050:flex-wrap mq750:gap-[16px] hover:shadow-xl">
+                <img class="h-[260px] w-[300px] relative rounded-3xl object-cover mq1050:flex-1" loading="lazy" alt=""
+                    src="public/blog3.png" />
+
+                <div
+                    class="flex-1 flex flex-col items-start justify-center gap-[16px] min-w-[424px] max-w-full mq750:min-w-full">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <div class="self-stretch relative leading-[24px]">
+                            Jan 13, 2022
+                        </div>
+                        <h2
+                            class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[32px] font-semibold font-inherit text-neutrals-2 mq450:text-lgi mq450:leading-[26px]">
+                            The best way to prepare crispy & delicious dinners
+                        </h2>
+                    </div>
+                    <button
+                        class="cursor-pointer [border:none] py-2 px-[18px] bg-secondary-4 rounded-11xl overflow-hidden flex flex-row items-start justify-start hover:bg-gainsboro-200">
+                        <div
+                            class="relative text-sm leading-[24px] font-medium font-caption text-primary-5 text-left inline-block min-w-[42px]">
+                            Health
+                        </div>
+                    </button>
+                </div>
+            </a>
+            <a href="blog-article.html"
+                class="w-[1044px] rounded-3xl bg-white box-border overflow-hidden flex flex-row items-center justify-center py-[30px] px-[29px] gap-[32px] max-w-full text-left text-sm text-neutrals-4 font-caption border-[1px] border-solid border-neutrals-8 mq1050:flex-wrap mq750:gap-[16px] hover:shadow-xl">
+                <img class="h-[260px] w-[300px] relative rounded-3xl object-cover mq1050:flex-1" loading="lazy" alt=""
+                    src="public/blog4.png" />
+
+                <div
+                    class="flex-1 flex flex-col items-start justify-center gap-[16px] min-w-[424px] max-w-full mq750:min-w-full">
+                    <div class="self-stretch flex flex-col items-start justify-start gap-[8px]">
+                        <div class="self-stretch relative leading-[24px]">
+                            Jan 13, 2022
+                        </div>
+                        <h2
+                            class="m-0 self-stretch relative text-5xl tracking-[-0.01em] leading-[32px] font-semibold font-inherit text-neutrals-2 mq450:text-lgi mq450:leading-[26px]">
+                            The best way to prepare crispy & delicious dinners
+                        </h2>
+                    </div>
+                    <button
+                        class="cursor-pointer [border:none] py-2 px-[18px] bg-secondary-1 rounded-11xl overflow-hidden flex flex-row items-start justify-start hover:bg-lavender">
+                        <div
+                            class="relative text-sm leading-[24px] font-medium font-caption text-primary-2 text-left inline-block min-w-[66px]">
+                            Beverages
+                        </div>
+                    </button>
+                </div>
+            </a>
+        </main>
+    </div>
+</body>
+
+<!-- footer -->
+<div
+    class="w-full relative bg-white overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal]">
+    <header
+        class="flex-1 bg-white overflow-hidden flex flex-col items-center justify-start pt-0 pb-[45px] px-5 box-border gap-[60px] max-w-full text-left text-sm text-neutrals-4 font-caption mq675:box-border mq900:gap-[30px]">
+        <div
+            class="w-[830px] flex flex-row items-start justify-center py-0 pr-px pl-0 box-border max-w-full text-5xl text-neutrals-2">
+            <div class="w-[391px] flex flex-col items-start justify-start gap-[24px] max-w-full">
+                <div class="self-stretch flex flex-row items-start justify-center py-0 pr-[23px] pl-5">
+                    <h2
+                        class="m-0 relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit whitespace-nowrap">
+                        <span>Royal Orchid</span>
+                        <span class="text-primary-5">.</span>
+                    </h2>
+                </div>
+                <div class="self-stretch flex flex-row items-start justify-start gap-[48px] mq450:gap-[24px]">
+                    <nav class="m-0 flex-1 flex flex-col items-start justify-start pt-3.5 px-0 pb-0">
+                        <nav
+                            class="m-0 self-stretch flex flex-row items-start justify-between gap-[20px] text-left text-sm text-neutrals-4 font-caption">
+                            <div
+                                class="relative leading-[16px] font-semibold inline-block min-w-[40px] whitespace-nowrap hover:text-black hover:shadow-xl">
+                                About
+                            </div>
+                            <div
+                                class="relative leading-[16px] font-semibold inline-block min-w-[35px] whitespace-nowrap hover:text-black hover:shadow-xl">
+                                Menu
+                            </div>
+                            <div
+                                class="relative leading-[16px] font-semibold inline-block min-w-[29px] hover:text-black hover:shadow-xl">
+                                Blog
+                            </div>
+                            <div
+                                class="relative leading-[16px] font-semibold inline-block min-w-[51px] hover:text-black hover:shadow-xl">
+                                Contact
+                            </div>
+                        </nav>
+                    </nav>
+                    <div class="flex flex-row items-center justify-center">
+                        <img class="h-11 w-11 relative rounded-3xl overflow-hidden shrink-0" loading="lazy" alt=""
+                            src="asset/Frame 1.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="w-[830px] flex flex-row flex-wrap items-start justify-center gap-[32px] max-w-full mq450:gap-[16px]">
+            <div
+                class="flex-1 rounded-3xs bg-white box-border overflow-hidden flex flex-row items-start justify-center p-5 min-w-[259px] max-w-full border-[1px] border-solid border-neutrals-8">
+                <div class="flex flex-col items-start justify-start gap-[8px]">
+                    <div
+                        class="flex flex-row items-start justify-start py-0 pr-[45px] pl-[45.5px] text-5xl text-neutrals-2">
+                        <h2
+                            class="m-0 relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            CONTACT US
+                        </h2>
+                    </div>
+                    <div class="relative leading-[24px]">
+                        4231 Westheimer St. Santa Ana 85486
+                    </div>
+                    <div class="flex flex-row items-start justify-start py-0 pr-[58px] pl-[58.5px]">
+                        <div class="relative leading-[24px] inline-block min-w-[119px] whitespace-nowrap">
+                            +61 000-000-000
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex-1 rounded-3xs bg-white overflow-hidden flex flex-row items-start justify-center p-5 box-border min-w-[259px] max-w-full">
+                <div class="flex flex-col items-start justify-start gap-[8px]">
+                    <div class="flex flex-row items-start justify-start py-0 px-1 text-5xl text-neutrals-2">
+                        <h2
+                            class="m-0 relative text-inherit tracking-[-0.01em] leading-[32px] font-semibold font-inherit mq450:text-lgi mq450:leading-[26px]">
+                            WORKING HOURS
+                        </h2>
+                    </div>
+                    <div class="flex flex-row items-start justify-start py-0 px-1.5">
+                        <div class="relative leading-[24px] whitespace-nowrap">
+                            Monday-Friday : 08:00 - 22:00
+                        </div>
+                    </div>
+                    <div class="relative leading-[24px] whitespace-nowrap">
+                        Saturday-Sunday : 08:00 - 22:00
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-[830px] flex flex-row items-start justify-center max-w-full">
+            <div class="h-11 flex flex-row items-start justify-start gap-[16px]">
+                <img class="h-11 w-11 relative rounded-3xl overflow-hidden shrink-0 min-h-[44px] hover:shadow-xl hover:shadow-black hover:size-12"
+                    loading="lazy" alt="" src="public/facebook-icon.svg" />
+
+                <div
+                    class="h-11 w-11 relative rounded-3xl shrink-0 min-h-[44px] flex items-center justify-center hover:shadow-xl hover:shadow-black hover:size-12">
+                    <img class="h-full w-full overflow-hidden shrink-0 min-h-[44px] object-contain absolute left-[0px] top-[10px] [transform:scale(1.909)]"
+                        loading="lazy" alt="" src="public/instagram-icon.svg" />
+                </div>
+                <img class="h-11 w-11 relative rounded-3xl overflow-hidden shrink-0 min-h-[44px] hover:shadow-xl hover:shadow-black hover:size-12"
+                    loading="lazy" alt="" src="public/twitter-icon.svg" />
+            </div>
+        </div>
+        <div class="w-[830px] flex flex-row items-start justify-center max-w-full">
+            <div class="w-[420px] flex flex-col items-start justify-start gap-[24px] max-w-full">
+                <nav
+                    class="m-0 self-stretch flex flex-row items-start justify-start py-0 px-[76px] mq450:pl-5 mq450:pr-5 mq450:box-border">
+                </nav>
+            </div>
+        </div>
+    </header>
+</div>
+
+<!-- menu mobile -->
+<div id="menu"
+    class="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 font-Outfit text-lg text-black uppercase bg-white">
+    <a href="index.html" class="hover:font-bold">Home</a>
+    <a href="about.html" class="hover:font-bold">About</a>
+    <a href="menu.html" class="hover:font-bold">Menu</a>
+    <a href="blog.html" class="hover:font-bold">Blog</a>
+    <a href="contact-us.html" class="hover:font-bold">Contact</a>
+</div>
